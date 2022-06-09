@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background: #000000;
+    color: #ffff;
+    background-color: #a782e0;
+background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%237b1739' fill-opacity='0.4'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+font-size: 16px;
+font-family: 'Oswald', sans-serif;
+}
+a{
+    color: #ffff;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container
+{
+    width: 90%;
+    margin: auto;
+}
+/*navegacion*/
+.nav-main
+{
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+}
+.nav-brand
+{
+    width: 50px;
+}
+/* nave left*/
+.nav-main ul{
+    display: flex;
+}
+.nav-main ul li{
+    padding: 10px;
+}
+.nav-main ul li a
+{
+    padding: 2px;
+}
+.nav-main ul li a:hover{
+border-bottom: 2px solid #ffff;
+}
+.nav-main ul.nav-menu{
+    flex: 1;
+    margin-left: 20px;
+}
